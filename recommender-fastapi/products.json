@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 1,
+        "name": "Blue Denim Jeans",
+        "category": "jeans",
+        "price": 1599,
+        "image": "https://via.placeholder.com/250?text=Blue+Jeans",
+        "description": "Classic blue denim jeans perfect for casual wear"
+    },
+    {
+        "_id": 2,
+        "name": "Black Slim Fit Jeans",
+        "category": "jeans",
+        "price": 1899,
+        "image": "https://via.placeholder.com/250?text=Black+Jeans",
+        "description": "Stylish black slim fit jeans"
+    },
+    {
+        "_id": 3,
+        "name": "White Casual Shirt",
+        "category": "shirt",
+        "price": 999,
+        "image": "https://via.placeholder.com/250?text=White+Shirt",
+        "description": "Fresh white casual shirt for everyday wear"
+    },
+    {
+        "_id": 4,
+        "name": "Printed T-Shirt",
+        "category": "tshirt",
+        "price": 499,
+        "image": "https://via.placeholder.com/250?text=Printed+Tshirt",
+        "description": "Trendy printed t-shirt with unique design"
+    },
+    {
+        "_id": 5,
+        "name": "Cotton Hoodie",
+        "category": "hoodie",
+        "price": 1299,
+        "image": "https://via.placeholder.com/250?text=Cotton+Hoodie",
+        "description": "Warm and comfortable cotton hoodie"
+    },
+    {
+        "_id": 6,
+        "name": "Denim Jacket",
+        "category": "jacket",
+        "price": 2499,
+        "image": "https://via.placeholder.com/250?text=Denim+Jacket",
+        "description": "Classic denim jacket for layering"
+    },
+    {
+        "_id": 7,
+        "name": "Black Formal Pants",
+        "category": "pants",
+        "price": 1699,
+        "image": "https://via.placeholder.com/250?text=Formal+Pants",
+        "description": "Professional black formal pants"
+    },
+    {
+        "_id": 8,
+        "name": "Floral Dress",
+        "category": "dress",
+        "price": 1999,
+        "image": "https://via.placeholder.com/250?text=Floral+Dress",
+        "description": "Beautiful floral printed dress"
+    }
+]
