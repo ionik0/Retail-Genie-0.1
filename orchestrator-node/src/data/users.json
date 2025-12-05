@@ -1,0 +1,51 @@
+[
+  {
+    "id": "USER1764934046565",
+    "email": "john@example.com",
+    "password": "cGFzc3dvcmQxMjM=",
+    "name": "John Doe",
+    "createdAt": "2025-12-05T11:27:26.565Z",
+    "addresses": [],
+    "gpsEnabled": false,
+    "currentLocation": null,
+    "preferences": {
+      "radius": 15,
+      "sortBy": "price",
+      "notifications": true
+    }
+  },
+  {
+    "id": "USER1764934064961",
+    "email": "sarah@example.com",
+    "password": "c2VjdXJlMTIz",
+    "name": "Sarah Khan",
+    "createdAt": "2025-12-05T11:27:44.961Z",
+    "addresses": [
+      {
+        "id": "ADDR1764934064968",
+        "street": "456 Mumbai Plaza",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "coordinates": {
+          "latitude": 19.076,
+          "longitude": 72.8777
+        },
+        "isDefault": true,
+        "type": "home"
+      }
+    ],
+    "gpsEnabled": true,
+    "currentLocation": {
+      "latitude": 19.076,
+      "longitude": 72.8777,
+      "timestamp": "2025-12-05T11:27:44.979Z",
+      "accuracy": 15
+    },
+    "preferences": {
+      "radius": 15,
+      "sortBy": "price",
+      "notifications": true
+    }
+  }
+]

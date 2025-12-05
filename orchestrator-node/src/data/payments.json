@@ -1,0 +1,90 @@
+{
+  "payment_methods": [
+    {
+      "method_id": "credit_card",
+      "name": "Credit Card",
+      "provider": "Visa/Mastercard",
+      "enabled": true,
+      "fees_percent": 2.5,
+      "processing_time": "instant"
+    },
+    {
+      "method_id": "debit_card",
+      "name": "Debit Card",
+      "provider": "NPCI",
+      "enabled": true,
+      "fees_percent": 1.0,
+      "processing_time": "instant"
+    },
+    {
+      "method_id": "upi",
+      "name": "UPI",
+      "provider": "NPCI",
+      "enabled": true,
+      "fees_percent": 0,
+      "processing_time": "instant"
+    },
+    {
+      "method_id": "wallet",
+      "name": "Digital Wallet",
+      "provider": "PayTM/PhonePe",
+      "enabled": true,
+      "fees_percent": 1.5,
+      "processing_time": "instant"
+    },
+    {
+      "method_id": "netbanking",
+      "name": "Net Banking",
+      "provider": "All Major Banks",
+      "enabled": true,
+      "fees_percent": 2.0,
+      "processing_time": "1-2 hours"
+    }
+  ],
+  "test_transactions": [
+    {
+      "tx_id": "TXN001",
+      "amount": 1599,
+      "status": "approved",
+      "message": "Transaction approved successfully",
+      "auth_code": "AUTH123456"
+    },
+    {
+      "tx_id": "TXN002",
+      "amount": 2499,
+      "status": "approved",
+      "message": "Transaction approved successfully",
+      "auth_code": "AUTH123457"
+    },
+    {
+      "tx_id": "TXN003",
+      "amount": 4999,
+      "status": "declined",
+      "message": "Insufficient funds",
+      "error_code": "INSUFFICIENT_FUNDS",
+      "retry_allowed": true
+    },
+    {
+      "tx_id": "TXN004",
+      "amount": 999,
+      "status": "approved",
+      "message": "Transaction approved successfully",
+      "auth_code": "AUTH123458"
+    },
+    {
+      "tx_id": "TXN005",
+      "amount": 5000,
+      "status": "pending",
+      "message": "Transaction pending verification",
+      "auth_code": "AUTH123459",
+      "verification_required": true
+    }
+  ],
+  "gateway_config": {
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "approval_rate": 0.95,
+    "decline_rate": 0.04,
+    "pending_rate": 0.01
+  }
+}

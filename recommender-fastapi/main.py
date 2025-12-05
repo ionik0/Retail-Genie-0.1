@@ -4,20 +4,33 @@ from pydantic import BaseModel
 from typing import Optional, List
 import os
 from dotenv import load_dotenv
+from contextlib import asynccontextmanager
 from models.recommender_model import RecommenderModel
 
 # Load environment variables
 load_dotenv()
 
+# Initialize recommender model early
+recommender = RecommenderModel(products_json_path="products.json")
+
+# Lifespan context manager
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup
+    print("✅ OmniSell Recommender Service Started")
+    print(f"📦 Loaded {len(recommender.products)} products")
+    print(f"🧠 Using model: sentence-transformers/all-MiniLM-L6-v2")
+    yield
+    # Shutdown
+    print("🛑 OmniSell Recommender Service Stopped")
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Retail-Genie-protoype",
     description="AI-powered product recommendation engine",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
-
-# Initialize recommender model
-recommender = RecommenderModel(products_json_path="products.json")
 
 # Pydantic request model
 class RecommendationQuery(BaseModel):
@@ -113,19 +126,7 @@ def get_product(product_id: int):
             return product
     raise HTTPException(status_code=404, detail="Product not found")
 
-# Startup event
-@app.on_event("startup")
-async def startup():
-    """Run on app startup"""
-    print("✅ OmniSell Recommender Service Started")
-    print(f"📦 Loaded {len(recommender.products)} products")
-    print(f"🧠 Using model: sentence-transformers/all-MiniLM-L6-v2")
-
-# Shutdown event
-@app.on_event("shutdown")
-async def shutdown():
-    """Run on app shutdown"""
-    print("🛑 OmniSell Recommender Service Stopped")
+# Startup event (replaced with lifespan)
 
 if __name__ == "__main__":
     import uvicorn

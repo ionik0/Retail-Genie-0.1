@@ -1,0 +1,283 @@
+{
+  "stores": [
+    {
+      "store_id": "STORE001",
+      "name": "Mumbai Central",
+      "location": "123 Fort Street, Mumbai 400001",
+      "city": "Mumbai",
+      "region": "Western India",
+      "coordinates": {
+        "latitude": 18.9674,
+        "longitude": 72.8194
+      },
+      "phone": "+91-2266123456",
+      "email": "mumbai@omnisell.com",
+      "working_hours": "10:00 AM - 10:00 PM",
+      "products": [
+        {
+          "product_id": "P001",
+          "name": "Blue Denim Jeans",
+          "category": "Apparel",
+          "price": 1299,
+          "stock": 12,
+          "in_stock": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P002",
+          "name": "Black Slim Fit Jeans",
+          "category": "Apparel",
+          "price": 1499,
+          "stock": 5,
+          "in_stock": true,
+          "rating": 4.3
+        },
+        {
+          "product_id": "P008",
+          "name": "Leather Belt",
+          "category": "Accessories",
+          "price": 599,
+          "stock": 20,
+          "in_stock": true,
+          "rating": 4.6
+        },
+        {
+          "product_id": "P009",
+          "name": "Silk Tie",
+          "category": "Accessories",
+          "price": 799,
+          "stock": 15,
+          "in_stock": true,
+          "rating": 4.4
+        },
+        {
+          "product_id": "P013",
+          "name": "Sports Shoes",
+          "category": "Footwear",
+          "price": 2499,
+          "stock": 8,
+          "in_stock": true,
+          "rating": 4.7
+        },
+        {
+          "product_id": "P015",
+          "name": "Canvas Shoes",
+          "category": "Footwear",
+          "price": 999,
+          "stock": 25,
+          "in_stock": true,
+          "rating": 4.2
+        },
+        {
+          "product_id": "P024",
+          "name": "Smart Watch",
+          "category": "Electronics",
+          "price": 4999,
+          "stock": 3,
+          "in_stock": true,
+          "rating": 4.8
+        },
+        {
+          "product_id": "P025",
+          "name": "Wireless Earbuds",
+          "category": "Electronics",
+          "price": 1999,
+          "stock": 12,
+          "in_stock": true,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "store_id": "STORE002",
+      "name": "Bangalore Tech Park",
+      "location": "456 Whitefield Road, Bangalore 560066",
+      "city": "Bangalore",
+      "region": "Southern India",
+      "coordinates": {
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "phone": "+91-8066234567",
+      "email": "bangalore@omnisell.com",
+      "working_hours": "9:00 AM - 11:00 PM",
+      "products": [
+        {
+          "product_id": "P001",
+          "name": "Blue Denim Jeans",
+          "category": "Apparel",
+          "price": 1299,
+          "stock": 8,
+          "in_stock": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P003",
+          "name": "White T-Shirt",
+          "category": "Apparel",
+          "price": 499,
+          "stock": 30,
+          "in_stock": true,
+          "rating": 4.4
+        },
+        {
+          "product_id": "P005",
+          "name": "Blue Hoodie",
+          "category": "Apparel",
+          "price": 1899,
+          "stock": 10,
+          "in_stock": true,
+          "rating": 4.6
+        },
+        {
+          "product_id": "P016",
+          "name": "Formal Shoes",
+          "category": "Footwear",
+          "price": 3499,
+          "stock": 6,
+          "in_stock": true,
+          "rating": 4.7
+        },
+        {
+          "product_id": "P018",
+          "name": "Potato Chips",
+          "category": "Snacks",
+          "price": 35,
+          "stock": 200,
+          "in_stock": true,
+          "rating": 4.1
+        },
+        {
+          "product_id": "P024",
+          "name": "Smart Watch",
+          "category": "Electronics",
+          "price": 4999,
+          "stock": 5,
+          "in_stock": true,
+          "rating": 4.8
+        },
+        {
+          "product_id": "P026",
+          "name": "Screen Protector",
+          "category": "Electronics",
+          "price": 299,
+          "stock": 50,
+          "in_stock": true,
+          "rating": 4.3
+        },
+        {
+          "product_id": "P029",
+          "name": "Business Book",
+          "category": "Books",
+          "price": 499,
+          "stock": 15,
+          "in_stock": true,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "store_id": "STORE003",
+      "name": "Delhi North",
+      "location": "789 Connaught Place, Delhi 110001",
+      "city": "Delhi",
+      "region": "Northern India",
+      "coordinates": {
+        "latitude": 28.6329,
+        "longitude": 77.2197
+      },
+      "phone": "+91-1141234567",
+      "email": "delhi@omnisell.com",
+      "working_hours": "10:00 AM - 10:30 PM",
+      "products": [
+        {
+          "product_id": "P001",
+          "name": "Blue Denim Jeans",
+          "category": "Apparel",
+          "price": 1299,
+          "stock": 15,
+          "in_stock": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P004",
+          "name": "Grey T-Shirt",
+          "category": "Apparel",
+          "price": 549,
+          "stock": 22,
+          "in_stock": true,
+          "rating": 4.3
+        },
+        {
+          "product_id": "P006",
+          "name": "Red Jacket",
+          "category": "Apparel",
+          "price": 2499,
+          "stock": 7,
+          "in_stock": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P008",
+          "name": "Leather Belt",
+          "category": "Accessories",
+          "price": 599,
+          "stock": 18,
+          "in_stock": true,
+          "rating": 4.6
+        },
+        {
+          "product_id": "P020",
+          "name": "Tortillas",
+          "category": "Snacks",
+          "price": 89,
+          "stock": 80,
+          "in_stock": true,
+          "rating": 4.2
+        },
+        {
+          "product_id": "P021",
+          "name": "Green Tea",
+          "category": "Beverages",
+          "price": 249,
+          "stock": 40,
+          "in_stock": true,
+          "rating": 4.4
+        },
+        {
+          "product_id": "P025",
+          "name": "Wireless Earbuds",
+          "category": "Electronics",
+          "price": 1999,
+          "stock": 10,
+          "in_stock": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P028",
+          "name": "Phone Charger",
+          "category": "Electronics",
+          "price": 599,
+          "stock": 35,
+          "in_stock": true,
+          "rating": 4.3
+        }
+      ]
+    }
+  ],
+  "old_inventory": [
+    {
+      "product_id": 1,
+      "name": "Blue Denim Jeans",
+      "online_stock": 45,
+      "store_stock": {
+        "STORE001": 12,
+        "STORE002": 8,
+        "STORE003": 15
+      },
+      "warehouse_stock": 150,
+      "reorder_level": 20,
+      "status": "in_stock"
+    }
+  ]
+}

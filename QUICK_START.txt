@@ -1,0 +1,170 @@
+# Quick Reference - Retail Genie Integration
+
+## 🚀 Get Started in 60 Seconds
+
+### Step 1: Install & Start (3 terminals)
+
+**Terminal 1:**
+```bash
+cd recommender-fastapi && .\venv\Scripts\Activate.ps1 && python main.py
+```
+
+**Terminal 2:**
+```bash
+cd orchestrator-node && npm start
+```
+
+**Terminal 3:**
+```bash
+cd frontend && npm run dev
+```
+
+### Step 2: Test
+- Open http://localhost:5173
+- Login with test account
+- Type: "I want party wear"
+- See recommendations! ✨
+
+---
+
+## 📊 Ports & URLs
+
+| Service | Port | URL |
+|---------|------|-----|
+| Frontend | 5173 | http://localhost:5173 |
+| Orchestrator | 5000 | http://localhost:5000 |
+| Recommender | 8000 | http://localhost:8000 |
+
+---
+
+## 🔌 API Endpoints
+
+### Orchestrator
+```
+POST /message
+{
+  "message": "party wear",
+  "session_id": null
+}
+
+Returns:
+{
+  "session_id": "...",
+  "response": "...",
+  "cards": [products]
+}
+```
+
+### Recommender
+```
+POST /recommend
+{
+  "query": "party wear",
+  "top_k": 5
+}
+
+Returns:
+{
+  "results": [products],
+  "count": 5
+}
+```
+
+---
+
+## 🧪 Testing
+
+### Browser Console
+```javascript
+// Check services
+await debugAPI.checkAllServices()
+
+// Test flow
+await debugAPI.testRecommendationFlow('kurtas')
+
+// Full report
+await debugAPI.generateReport()
+```
+
+### PowerShell Script
+```bash
+.\test-integration.ps1
+```
+
+---
+
+## ⚡ Troubleshoot
+
+| Problem | Solution |
+|---------|----------|
+| "Can't reach service" | Check all 3 services running on correct ports |
+| "No recommendations" | Verify recommender has products.json loaded |
+| "CORS error" | Check VITE_ORCHESTRATOR_URL in .env.local |
+| "Module not found" | Run `npm install` and `pip install -r requirements.txt` |
+
+---
+
+## 📁 Key Files
+
+```
+frontend/.env.local          # API URLs
+orchestrator-node/.env       # Orchestrator config
+recommender-fastapi/.env     # Recommender config
+
+frontend/src/services/api.js    # API client
+frontend/src/components/Chatbot.jsx  # Chat interface
+orchestrator-node/src/controllers/messageController.js  # Main logic
+```
+
+---
+
+## 🎯 Data Flow
+
+```
+User Message in Chat
+    ↓ POST /message
+Orchestrator
+    ↓ POST /recommend
+Recommender
+    ↓ AI Search
+Returns Products
+    ↓
+Chat Displays Results
+```
+
+---
+
+## 💡 Test Queries
+
+- "party wear"
+- "kurtas under 3000"
+- "wedding wear"
+- "office wear"
+- "casual clothes"
+- "shoes"
+
+---
+
+## ✅ Success Checklist
+
+- [ ] All 3 services running
+- [ ] Browser loads http://localhost:5173
+- [ ] Can login
+- [ ] Chat shows greeting message
+- [ ] Type query shows products
+- [ ] Browser console has no errors
+- [ ] `debugAPI.checkAllServices()` returns all "ok"
+
+---
+
+## 📚 Documentation
+
+- `INTEGRATION_GUIDE.md` - Detailed setup guide
+- `API_INTEGRATION.md` - Full API reference
+- `CHANGES_SUMMARY.md` - What was changed
+
+---
+
+## 🎉 You're All Set!
+
+Everything is connected and ready to use. Just start the 3 services and enjoy! 🚀
