@@ -3,9 +3,9 @@ const cors = require("cors");
 const { PORT } = require("./config/env");
 const { handleMessage } = require("./controllers/messageController");
 const { handlePostPurchase, getHealthStatus } = require("./controllers/postPurchaseController");
-const { 
-    handleRegister, 
-    handleLogin, 
+const {
+    handleRegister,
+    handleLogin,
     handleLogout,
     handleGetProfile,
     handleAddAddress,

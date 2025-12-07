@@ -89,7 +89,7 @@ exports.handleGetProfile = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -122,7 +122,7 @@ exports.handleAddAddress = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -162,7 +162,7 @@ exports.handleUpdateGPS = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -195,7 +195,7 @@ exports.handleToggleGPS = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -228,7 +228,7 @@ exports.handleUpdatePreferences = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -261,7 +261,7 @@ exports.handleFindNearbyStores = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
@@ -282,15 +282,6 @@ exports.handleFindNearbyStores = async (req, res) => {
 
         const result = locationService.findNearbyStores(userLocation, radius || 15);
         res.json(result);
-    } catch (error) {
-        console.error('[AuthController] Find nearby stores error:', error.message);
-        res.status(500).json({
-            success: false,
-            message: 'Failed to find nearby stores',
-            error: error.message
-        });
-    }
-};
     } catch (error) {
         console.error('[AuthController] Find nearby stores error:', error.message);
         res.status(500).json({
@@ -360,7 +351,7 @@ exports.handleSearchNearbyProducts = async (req, res) => {
         }
 
         const verified = authService.verifySession(sessionId);
-        
+
         if (!verified.valid) {
             return res.status(401).json({
                 success: false,
