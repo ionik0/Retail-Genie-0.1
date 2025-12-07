@@ -1,0 +1,163 @@
+{
+  "store_locations": [
+    {
+      "store_id": "STORE001",
+      "name": "Mumbai Central",
+      "city": "Mumbai",
+      "region": "Western India",
+      "address": "123 Fort Street, Mumbai 400001",
+      "phone": "+91-2266123456",
+      "coordinates": { "lat": 18.9674, "lon": 72.8194 }
+    },
+    {
+      "store_id": "STORE002",
+      "name": "Bangalore Tech Park",
+      "city": "Bangalore",
+      "region": "Southern India",
+      "address": "456 Whitefield Road, Bangalore 560066",
+      "phone": "+91-8066234567",
+      "coordinates": { "lat": 12.9716, "lon": 77.5946 }
+    },
+    {
+      "store_id": "STORE003",
+      "name": "Delhi North",
+      "city": "Delhi",
+      "region": "Northern India",
+      "address": "789 Connaught Place, Delhi 110001",
+      "phone": "+91-1141234567",
+      "coordinates": { "lat": 28.6329, "lon": 77.2197 }
+    }
+  ],
+  "inventory": [
+    {
+      "product_id": 1,
+      "name": "Blue Denim Jeans",
+      "online_stock": 45,
+      "store_stock": {
+        "STORE001": 12,
+        "STORE002": 8,
+        "STORE003": 15
+      },
+      "warehouse_stock": 150,
+      "reorder_level": 20,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 2,
+      "name": "Black Slim Fit Jeans",
+      "online_stock": 32,
+      "store_stock": {
+        "STORE001": 5,
+        "STORE002": 10,
+        "STORE003": 8
+      },
+      "warehouse_stock": 95,
+      "reorder_level": 20,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 3,
+      "name": "Cotton T-Shirt",
+      "online_stock": 78,
+      "store_stock": {
+        "STORE001": 25,
+        "STORE002": 22,
+        "STORE003": 20
+      },
+      "warehouse_stock": 320,
+      "reorder_level": 30,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 5,
+      "name": "Denim Jacket",
+      "online_stock": 18,
+      "store_stock": {
+        "STORE001": 3,
+        "STORE002": 5,
+        "STORE003": 4
+      },
+      "warehouse_stock": 45,
+      "reorder_level": 15,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 9,
+      "name": "Sports Sneakers",
+      "online_stock": 28,
+      "store_stock": {
+        "STORE001": 8,
+        "STORE002": 6,
+        "STORE003": 12
+      },
+      "warehouse_stock": 75,
+      "reorder_level": 20,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 14,
+      "name": "Sunflower Oil - 1L",
+      "online_stock": 156,
+      "store_stock": {
+        "STORE001": 50,
+        "STORE002": 40,
+        "STORE003": 45
+      },
+      "warehouse_stock": 500,
+      "reorder_level": 100,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 20,
+      "name": "Smart Watch Pro",
+      "online_stock": 12,
+      "store_stock": {
+        "STORE001": 2,
+        "STORE002": 3,
+        "STORE003": 2
+      },
+      "warehouse_stock": 30,
+      "reorder_level": 10,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 24,
+      "name": "Yoga Mat",
+      "online_stock": 34,
+      "store_stock": {
+        "STORE001": 12,
+        "STORE002": 10,
+        "STORE003": 8
+      },
+      "warehouse_stock": 100,
+      "reorder_level": 25,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 26,
+      "name": "Stainless Steel Water Bottle",
+      "online_stock": 89,
+      "store_stock": {
+        "STORE001": 20,
+        "STORE002": 25,
+        "STORE003": 30
+      },
+      "warehouse_stock": 200,
+      "reorder_level": 40,
+      "status": "in_stock"
+    },
+    {
+      "product_id": 28,
+      "name": "Book: The Lean Startup",
+      "online_stock": 145,
+      "store_stock": {
+        "STORE001": 35,
+        "STORE002": 40,
+        "STORE003": 38
+      },
+      "warehouse_stock": 500,
+      "reorder_level": 60,
+      "status": "in_stock"
+    }
+  ]
+}

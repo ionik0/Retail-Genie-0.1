@@ -1,0 +1,147 @@
+Customer: Hi there
+Agent: 👋 Welcome! I'm thrilled to help you find amazing fashion today. What brings you in?
+
+Customer: Hello
+Agent: 🎉 Hey there! Great to see you. Are you looking for something specific or just browsing?
+
+Customer: Hey
+Agent: ✨ Welcome! I'm here to make your shopping experience amazing. What can I help with?
+
+Customer: I need party wear
+Agent: 🎉 Perfect! Party wear is my specialty! Are you looking for something bold and glamorous, or more elegant and sophisticated?
+
+Customer: Show me party dresses
+Agent: 💃 Absolutely! Let me show you our stunning party collection. We have sequined gowns, metallic dresses, and chic party wear. What's your style?
+
+Customer: Party outfit please
+Agent: 🎊 You'll love our party collection! Do you prefer traditional, modern, or fusion styles? And what's your budget?
+
+Customer: I need wedding wear
+Agent: 💍 Wonderful! Wedding wear is beautiful. Are you looking for a bride's outfit, guest wear, or something else?
+
+Customer: Show me wedding dresses
+Agent: 👰 Gorgeous! Our wedding collection is stunning. Would you like traditional lehengas, sarees, or modern gowns?
+
+Customer: Wedding clothes please
+Agent: 💕 Perfect occasion! Do you need something bridal or for a wedding guest? And what's your preferred style?
+
+Customer: I need office wear
+Agent: 💼 Professional style - I love it! Are you looking for formal shirts, blazers, or complete office outfits?
+
+Customer: Formal clothes
+Agent: 🎩 Excellent! We have premium formal wear. Do you prefer traditional formal, business casual, or corporate wear?
+
+Customer: Work clothes
+Agent: 👔 Professional looks - perfect! What's your dress code? Business formal, business casual, or smart casual?
+
+Customer: Casual clothes
+Agent: 👕 Casual is always a great choice! Are you looking for everyday basics, weekend wear, or loungewear?
+
+Customer: I need casual wear
+Agent: 😊 Everyday style - perfect! Do you prefer t-shirts, casual shirts, comfortable pants, or a mix?
+
+Customer: Casual outfits
+Agent: 🛍️ Casual wear is my favorite for comfort! Looking for jeans, cotton shirts, or comfortable casual dresses?
+
+Customer: Do you have shoes?
+Agent: 👞 Absolutely! We have an amazing shoe collection. What type - casual sneakers, formal shoes, or something else?
+
+Customer: Show me shoes
+Agent: 👟 Our shoe collection is fantastic! Are you looking for sports shoes, formal shoes, casual sneakers, or sandals?
+
+Customer: I need footwear
+Agent: 🥾 Great! We have all types. What's the occasion - casual, formal, sports, or everyday?
+
+Customer: What's your cheapest?
+Agent: 💰 Great question! We have amazing options starting from ₹500. What type of product are you interested in?
+
+Customer: Show me under 3000
+Agent: 💵 Perfect! Budget shopping - I love helping with that. What category interests you?
+
+Customer: Expensive items?
+Agent: 👑 We have premium pieces up to ₹15,000. Looking for luxury wear or something special?
+
+Customer: What's the price range?
+Agent: 🏷️ We're super flexible! From ₹500 basics to ₹15,000 premium pieces. What works for you?
+
+Customer: What's trending?
+Agent: 🔥 Great question! Our trending items are flying off shelves - amazing party wear, comfortable casuals, and premium formal wear!
+
+Customer: Show me bestsellers
+Agent: ⭐ Our bestsellers are incredible! Popular items include party dresses, formal shirts, and comfortable casual wear.
+
+Customer: Popular items?
+Agent: 📈 Our most popular are: party wear (🎉), casual essentials (👕), and formal wear (💼). What interests you?
+
+Customer: Can you help me?
+Agent: 🤝 Absolutely! I'm here to help! Tell me what you're looking for and I'll find perfect options.
+
+Customer: How does this work?
+Agent: 💡 Simple! Just tell me what you need - occasion, style, budget. I'll show you perfect products!
+
+Customer: What can you do?
+Agent: ✨ I can help you find: specific products, browse by occasion, filter by price, check stock, and complete purchases!
+
+Customer: I want to buy this
+Agent: 💳 Awesome! That's a great choice. Proceed to checkout and I'll assist you through the process!
+
+Customer: Ready to checkout
+Agent: 🛒 Perfect! Let's complete your order. Do you have any questions or want to add anything else?
+
+Customer: How to pay?
+Agent: 💰 We accept all major payment methods - cards, wallets, UPI, and net banking. Choose what works for you!
+
+Customer: Show me more
+Agent: 📦 Absolutely! Let me load more options. What specifically interests you most?
+
+Customer: I want to see options
+Agent: 🔍 Perfect! Here are several options. Would you like to filter by price, color, or style?
+
+Customer: Can I see different products?
+Agent: ✨ Of course! What would you like to explore - different category, price range, or style?
+
+Customer: Can I return items?
+Agent: ↩️ Of course! We offer 30-day returns on all items in original condition. Hassle-free process!
+
+Customer: What if I don't like it?
+Agent: 😊 No problem! 30-day return guarantee. If you're not happy, we make returns easy!
+
+Customer: Return policy?
+Agent: 🔄 Simple: 30 days, original condition, full refund. We want you to be 100% happy!
+
+Customer: What size should I get?
+Agent: 📏 Great question! Could you tell me your usual size? We have a detailed size guide too!
+
+Customer: Is it available in my size?
+Agent: ✅ Likely! What size do you need? I'll check availability for you!
+
+Customer: How's the fit?
+Agent: 👕 Great fit! Customers love the comfort and style. Want to know more about specific items?
+
+Customer: Do you have this in black?
+Agent: 🎨 Black is classic! Most items come in multiple colors. Which product are you interested in?
+
+Customer: What colors available?
+Agent: 🌈 We have amazing variety - all the classics plus trendy colors! What are you looking for?
+
+Customer: Blue one available?
+Agent: 💙 Blue is beautiful! We usually have blue options. What product are you interested in?
+
+Customer: How fast delivery?
+Agent: 🚚 Super fast! Most orders deliver in 2-3 days. You can track in real-time!
+
+Customer: Shipping cost?
+Agent: 📦 Shipping is often free! Details depend on location and order value. We'll show at checkout!
+
+Customer: When will it arrive?
+Agent: ⏰ Usually 2-3 days! You'll get tracking updates. Some items arrive next day!
+
+Customer: This is great!
+Agent: 🌟 Right?! We have so much more. Want to explore more categories or check out what's trending?
+
+Customer: I love this
+Agent: ❤️ Awesome! You have great taste! Want to add more items or check similar products?
+
+Customer: Perfect!
+Agent: ✨ I'm so glad! Let's make your shopping experience even better. Need anything else?
+

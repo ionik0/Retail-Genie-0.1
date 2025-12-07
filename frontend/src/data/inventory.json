@@ -1,0 +1,243 @@
+{
+  "P001": {
+    "warehouse": {
+      "stock": 150,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 25, "available": true},
+      "Delhi": {"stock": 30, "available": true},
+      "Mumbai": {"stock": 20, "available": true},
+      "Bangalore": {"stock": 0, "available": false}
+    }
+  },
+  "P002": {
+    "warehouse": {
+      "stock": 200,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 15, "available": true},
+      "Delhi": {"stock": 40, "available": true},
+      "Mumbai": {"stock": 25, "available": true},
+      "Bangalore": {"stock": 10, "available": true}
+    }
+  },
+  "P003": {
+    "warehouse": {
+      "stock": 80,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 5, "available": true},
+      "Delhi": {"stock": 12, "available": true},
+      "Mumbai": {"stock": 8, "available": true},
+      "Bangalore": {"stock": 3, "available": true}
+    }
+  },
+  "P004": {
+    "warehouse": {
+      "stock": 300,
+      "location": "Bangalore Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 50, "available": true},
+      "Delhi": {"stock": 60, "available": true},
+      "Mumbai": {"stock": 45, "available": true},
+      "Bangalore": {"stock": 70, "available": true}
+    }
+  },
+  "P005": {
+    "warehouse": {
+      "stock": 50,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 0, "available": false},
+      "Delhi": {"stock": 8, "available": true},
+      "Mumbai": {"stock": 5, "available": true},
+      "Bangalore": {"stock": 0, "available": false}
+    }
+  },
+  "P006": {
+    "warehouse": {
+      "stock": 120,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 20, "available": true},
+      "Delhi": {"stock": 25, "available": true},
+      "Mumbai": {"stock": 30, "available": true},
+      "Bangalore": {"stock": 15, "available": true}
+    }
+  },
+  "P007": {
+    "warehouse": {
+      "stock": 180,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 35, "available": true},
+      "Delhi": {"stock": 45, "available": true},
+      "Mumbai": {"stock": 30, "available": true},
+      "Bangalore": {"stock": 40, "available": true}
+    }
+  },
+  "P008": {
+    "warehouse": {
+      "stock": 60,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 12, "available": true},
+      "Delhi": {"stock": 15, "available": true},
+      "Mumbai": {"stock": 10, "available": true},
+      "Bangalore": {"stock": 8, "available": true}
+    }
+  },
+  "P009": {
+    "warehouse": {
+      "stock": 140,
+      "location": "Bangalore Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 25, "available": true},
+      "Delhi": {"stock": 30, "available": true},
+      "Mumbai": {"stock": 28, "available": true},
+      "Bangalore": {"stock": 35, "available": true}
+    }
+  },
+  "P010": {
+    "warehouse": {
+      "stock": 90,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 15, "available": true},
+      "Delhi": {"stock": 20, "available": true},
+      "Mumbai": {"stock": 18, "available": true},
+      "Bangalore": {"stock": 12, "available": true}
+    }
+  },
+  "P011": {
+    "warehouse": {
+      "stock": 45,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 8, "available": true},
+      "Delhi": {"stock": 12, "available": true},
+      "Mumbai": {"stock": 6, "available": true},
+      "Bangalore": {"stock": 5, "available": true}
+    }
+  },
+  "P012": {
+    "warehouse": {
+      "stock": 70,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 10, "available": true},
+      "Delhi": {"stock": 15, "available": true},
+      "Mumbai": {"stock": 12, "available": true},
+      "Bangalore": {"stock": 8, "available": true}
+    }
+  },
+  "P013": {
+    "warehouse": {
+      "stock": 30,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 5, "available": true},
+      "Delhi": {"stock": 8, "available": true},
+      "Mumbai": {"stock": 4, "available": true},
+      "Bangalore": {"stock": 3, "available": true}
+    }
+  },
+  "P014": {
+    "warehouse": {
+      "stock": 50,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 8, "available": true},
+      "Delhi": {"stock": 12, "available": true},
+      "Mumbai": {"stock": 10, "available": true},
+      "Bangalore": {"stock": 6, "available": true}
+    }
+  },
+  "P015": {
+    "warehouse": {
+      "stock": 25,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 3, "available": true},
+      "Delhi": {"stock": 6, "available": true},
+      "Mumbai": {"stock": 4, "available": true},
+      "Bangalore": {"stock": 2, "available": true}
+    }
+  },
+  "P016": {
+    "warehouse": {
+      "stock": 200,
+      "location": "Bangalore Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 40, "available": true},
+      "Delhi": {"stock": 50, "available": true},
+      "Mumbai": {"stock": 45, "available": true},
+      "Bangalore": {"stock": 55, "available": true}
+    }
+  },
+  "P017": {
+    "warehouse": {
+      "stock": 250,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 50, "available": true},
+      "Delhi": {"stock": 60, "available": true},
+      "Mumbai": {"stock": 55, "available": true},
+      "Bangalore": {"stock": 65, "available": true}
+    }
+  },
+  "P018": {
+    "warehouse": {
+      "stock": 150,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 25, "available": true},
+      "Delhi": {"stock": 35, "available": true},
+      "Mumbai": {"stock": 30, "available": true},
+      "Bangalore": {"stock": 20, "available": true}
+    }
+  },
+  "P019": {
+    "warehouse": {
+      "stock": 180,
+      "location": "Mumbai Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 30, "available": true},
+      "Delhi": {"stock": 40, "available": true},
+      "Mumbai": {"stock": 35, "available": true},
+      "Bangalore": {"stock": 25, "available": true}
+    }
+  },
+  "P020": {
+    "warehouse": {
+      "stock": 75,
+      "location": "Delhi Warehouse"
+    },
+    "stores": {
+      "Jaipur": {"stock": 12, "available": true},
+      "Delhi": {"stock": 18, "available": true},
+      "Mumbai": {"stock": 15, "available": true},
+      "Bangalore": {"stock": 10, "available": true}
+    }
+  }
+}
+

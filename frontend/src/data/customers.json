@@ -1,0 +1,89 @@
+[
+  {
+    "id": "C001",
+    "name": "Rajesh Kumar",
+    "email": "rajesh@example.com",
+    "phone": "+91 98765 43210",
+    "loyaltyTier": "Gold",
+    "loyaltyPoints": 2500,
+    "pastPurchases": [
+      {"productId": "P001", "date": "2024-01-15", "amount": 2499},
+      {"productId": "P004", "date": "2024-02-20", "amount": 899}
+    ],
+    "preferences": {
+      "categories": ["Shirts", "Jeans"],
+      "priceRange": "2000-5000",
+      "colors": ["Blue", "White", "Black"]
+    },
+    "devicePreference": "mobile"
+  },
+  {
+    "id": "C002",
+    "name": "Priya Sharma",
+    "email": "priya@example.com",
+    "phone": "+91 98765 43211",
+    "loyaltyTier": "Silver",
+    "loyaltyPoints": 1200,
+    "pastPurchases": [
+      {"productId": "P002", "date": "2024-01-10", "amount": 3499}
+    ],
+    "preferences": {
+      "categories": ["Jeans", "T-Shirts"],
+      "priceRange": "1000-4000",
+      "colors": ["Black", "Navy"]
+    },
+    "devicePreference": "web"
+  },
+  {
+    "id": "C003",
+    "name": "Amit Patel",
+    "email": "amit@example.com",
+    "phone": "+91 98765 43212",
+    "loyaltyTier": "Platinum",
+    "loyaltyPoints": 5000,
+    "pastPurchases": [
+      {"productId": "P003", "date": "2024-01-05", "amount": 5999},
+      {"productId": "P005", "date": "2024-02-01", "amount": 8999}
+    ],
+    "preferences": {
+      "categories": ["Footwear", "Blazers"],
+      "priceRange": "5000-10000",
+      "colors": ["Black", "Brown"]
+    },
+    "devicePreference": "mobile"
+  },
+  {
+    "id": "C004",
+    "name": "Sneha Reddy",
+    "email": "sneha@example.com",
+    "phone": "+91 98765 43213",
+    "loyaltyTier": "Gold",
+    "loyaltyPoints": 1800,
+    "pastPurchases": [
+      {"productId": "P004", "date": "2024-01-20", "amount": 899},
+      {"productId": "P006", "date": "2024-02-15", "amount": 3999}
+    ],
+    "preferences": {
+      "categories": ["T-Shirts", "Footwear"],
+      "priceRange": "1000-5000",
+      "colors": ["White", "Grey", "Black"]
+    },
+    "devicePreference": "web"
+  },
+  {
+    "id": "C005",
+    "name": "Vikram Singh",
+    "email": "vikram@example.com",
+    "phone": "+91 98765 43214",
+    "loyaltyTier": "Silver",
+    "loyaltyPoints": 800,
+    "pastPurchases": [],
+    "preferences": {
+      "categories": ["Shirts", "Jeans"],
+      "priceRange": "2000-4000",
+      "colors": ["Blue", "Grey"]
+    },
+    "devicePreference": "mobile"
+  }
+]
+

@@ -1,0 +1,51 @@
+{
+  "activePromotions": [
+    {
+      "id": "PROMO001",
+      "code": "WELCOME20",
+      "description": "20% off on first order",
+      "discount": 20,
+      "type": "percentage",
+      "validUntil": "2024-12-31",
+      "applicableCategories": ["all"]
+    },
+    {
+      "id": "PROMO002",
+      "code": "SHIRTS30",
+      "description": "30% off on all shirts",
+      "discount": 30,
+      "type": "percentage",
+      "validUntil": "2024-12-31",
+      "applicableCategories": ["Shirts"]
+    },
+    {
+      "id": "PROMO003",
+      "code": "FLAT500",
+      "description": "Flat ₹500 off on orders above ₹3000",
+      "discount": 500,
+      "type": "fixed",
+      "minOrderValue": 3000,
+      "validUntil": "2024-12-31",
+      "applicableCategories": ["all"]
+    },
+    {
+      "id": "PROMO004",
+      "code": "FOOTWEAR25",
+      "description": "25% off on footwear",
+      "discount": 25,
+      "type": "percentage",
+      "validUntil": "2024-12-31",
+      "applicableCategories": ["Footwear"]
+    }
+  ],
+  "loyaltyPointRates": {
+    "Silver": 1,
+    "Gold": 1.5,
+    "Platinum": 2
+  },
+  "loyaltyPointRedemption": {
+    "rate": 100,
+    "maxRedemptionPercent": 50
+  }
+}
+

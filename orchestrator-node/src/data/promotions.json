@@ -1,0 +1,146 @@
+{
+  "loyalty_tiers": [
+    {
+      "tier_id": "silver",
+      "name": "Silver",
+      "min_points": 0,
+      "max_points": 4999,
+      "benefits": {
+        "point_multiplier": 1.0,
+        "discount_percent": 5,
+        "free_shipping_threshold": 2000
+      },
+      "annual_benefits": [
+        "Birthday discount (10%)",
+        "Early access to sales"
+      ]
+    },
+    {
+      "tier_id": "gold",
+      "name": "Gold",
+      "min_points": 5000,
+      "max_points": 14999,
+      "benefits": {
+        "point_multiplier": 1.5,
+        "discount_percent": 10,
+        "free_shipping_threshold": 1500
+      },
+      "annual_benefits": [
+        "Birthday discount (15%)",
+        "Priority customer support",
+        "Early access to sales",
+        "Free express shipping"
+      ]
+    },
+    {
+      "tier_id": "platinum",
+      "name": "Platinum",
+      "min_points": 15000,
+      "max_points": null,
+      "benefits": {
+        "point_multiplier": 2.0,
+        "discount_percent": 15,
+        "free_shipping_threshold": 999
+      },
+      "annual_benefits": [
+        "Birthday discount (20%)",
+        "Priority 24/7 support",
+        "Early access 7 days before",
+        "Free standard shipping on all orders",
+        "Exclusive products",
+        "Personal shopping assistant"
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "promo_id": "PROMO001",
+      "name": "Diwali Festival Sale",
+      "description": "20% off on selected apparel",
+      "discount_type": "percentage",
+      "discount_value": 20,
+      "applicable_categories": ["Apparel"],
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-15",
+      "min_purchase": 500,
+      "max_discount": 5000,
+      "status": "active",
+      "code": "DIWALI20"
+    },
+    {
+      "promo_id": "PROMO002",
+      "name": "New Year Electronics Deal",
+      "description": "Flat ₹1000 off on electronics",
+      "discount_type": "fixed",
+      "discount_value": 1000,
+      "applicable_categories": ["Electronics"],
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-31",
+      "min_purchase": 3000,
+      "max_discount": 1000,
+      "status": "scheduled",
+      "code": "NEWYEAR1000"
+    },
+    {
+      "promo_id": "PROMO003",
+      "name": "Grocery Delivery Discount",
+      "description": "15% off on grocery items",
+      "discount_type": "percentage",
+      "discount_value": 15,
+      "applicable_categories": ["Grocery", "Beverages", "Snacks"],
+      "start_date": "2025-11-01",
+      "end_date": "2025-12-31",
+      "min_purchase": 300,
+      "max_discount": 500,
+      "status": "active",
+      "code": "GROCERY15"
+    },
+    {
+      "promo_id": "PROMO004",
+      "name": "Loyalty Boost",
+      "description": "2x loyalty points on all purchases",
+      "discount_type": "points",
+      "points_multiplier": 2,
+      "applicable_categories": [],
+      "start_date": "2025-11-20",
+      "end_date": "2025-11-30",
+      "min_purchase": 0,
+      "status": "active",
+      "code": "BOOST2X"
+    },
+    {
+      "promo_id": "PROMO005",
+      "name": "First Purchase Offer",
+      "description": "₹200 off on first purchase over ₹1000",
+      "discount_type": "fixed",
+      "discount_value": 200,
+      "applicable_categories": [],
+      "start_date": "2025-11-01",
+      "end_date": "2025-12-31",
+      "min_purchase": 1000,
+      "max_discount": 200,
+      "status": "active",
+      "code": "FIRST200",
+      "first_purchase_only": true
+    },
+    {
+      "promo_id": "PROMO006",
+      "name": "Free Shipping Weekend",
+      "description": "Free shipping on all orders",
+      "discount_type": "shipping",
+      "applicable_categories": [],
+      "start_date": "2025-11-25",
+      "end_date": "2025-11-26",
+      "min_purchase": 0,
+      "status": "active",
+      "code": "FREESHIP25"
+    }
+  ],
+  "coupon_rules": {
+    "max_discount_percent": 50,
+    "max_discount_fixed": 5000,
+    "max_redemptions_per_customer": 5,
+    "max_redemptions_per_promo": 10000,
+    "stacking_allowed": false
+  }
+}

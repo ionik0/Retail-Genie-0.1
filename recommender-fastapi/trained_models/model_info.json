@@ -1,0 +1,8 @@
+{
+  "model_name": "distilgpt2",
+  "base_model": "distilgpt2",
+  "num_parameters": 81917184,
+  "training_examples": 49,
+  "device": "cpu",
+  "training_completed": true
+}
